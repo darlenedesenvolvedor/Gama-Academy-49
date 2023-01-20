@@ -22,3 +22,6 @@ display:inline-block;
 nav{
     text-align: center;
 }
+nav p {
+    text-align: center;
+}
