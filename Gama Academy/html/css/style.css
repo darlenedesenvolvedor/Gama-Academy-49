@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+header{
+    text-align: center;
+}
+img {
+max-width:100%;
+}
+.bloco-post {
+border: 5px solid #FFF;
+padding: 1em;
+width: 35%;
+display:inline-block;
+}
+nav{
+    text-align: center;
+}
