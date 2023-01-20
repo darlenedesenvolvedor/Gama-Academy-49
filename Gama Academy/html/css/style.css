@@ -1,14 +1,17 @@
 body{
     background-color: black;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
+    text-align: center;
 }
 header{
     text-align: center;
 }
+p {
+    text-align: left;
+}
 img {
-max-width:100%;
+    max-width:100%;
 }
 .bloco-post {
 border: 5px solid #FFF;
