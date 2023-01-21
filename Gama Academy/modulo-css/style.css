@@ -46,7 +46,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url(../img/astronaut.jpg);
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url(../modulo-css/astronaut.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,20 +55,30 @@ nav li a:hover{
     justify-content: center;
     text-align: center;
 }
-.texto .titulo{
+.text-main .titulo{
     color: #fff;
     font-size: 60px;
     font-weight: 600;
 }
-.texto .sub_titulo{
+.text-main .sub_titulo{
     color: #fff;
-    font-size: 58px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 350;
 }
-.texto .botoes{
+.text-main .medias-socias{
+    margin-top: 40px;
+}
+.text-main .medias-socias a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 0 auto;
+    display: inline;
+}
+.text-main .botoes{
     margin-top: 30px;
 }
-.texto .botoes button{
+.text-main .botoes button{
     height: 55px;
     width: 170px;
     border-radius: 5px;
@@ -81,16 +91,16 @@ nav li a:hover{
     outline: none;
     transition: 0.3s;
 }
-.texto .botoes button.n-overlay{
+.text-main .botoes button.n-overlay{
     color: white;
     background: none;
     border: 2px solid white;
 }
-.texto .botoes button.n-overlay:hover{
+.text-main .botoes button.n-overlay:hover{
     color: black;
     background-color: white;
 }
-.texto .botoes button.overlay{
+.text-main .botoes button.overlay{
     background: white;
     color: black;
     animation: vibrar 0.5s ease-in-out infinite both;
