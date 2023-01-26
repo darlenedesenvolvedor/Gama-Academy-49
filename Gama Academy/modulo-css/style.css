@@ -64,16 +64,19 @@ nav li a:hover{
     color: #fff;
     font-size: 45px;
     font-weight: 350;
+    padding: 10px;
 }
 .text-main .medias-socias{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .text-main .medias-socias a{
-    color: white;
+    color: #fff;
     font-size: 25px;
     text-decoration: none;
     margin-left: 0 auto;
     display: inline;
+    padding: 15px;
+    justify-content: center;
 }
 .text-main .botoes{
     margin-top: 30px;
